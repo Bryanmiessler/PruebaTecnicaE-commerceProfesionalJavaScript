@@ -1,0 +1,34 @@
+{
+  "name": "laboratorio-fakestore",
+  "version": "1.0.0",
+  "description": "FakeStore",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --open=public --entry-file=index.html",
+    "e2e": "cypress open",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platzi/laboratorio-fakestore.git"
+  },
+  "keywords": [],
+  "author": "Oscar Barajas <oscar@platzi.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/platzi/laboratorio-fakestore/issues"
+  },
+  "homepage": "https://github.com/platzi/laboratorio-fakestore#readme",
+  "devDependencies": {
+    "cypress-vite": "^1.3.0",
+    "gh-pages": "^5.0.0",
+    "live-server": "^1.1.0",
+    "vite": "^4.1.3"
+  },
+  "dependencies": {
+    "cypress": "^10.2.0"
+  }
+}
